@@ -86,7 +86,7 @@ y = np.array([31.82082490529877,30.095264211096985,30.8671131573908,30.753026760
 
 nb_features = 1
 X_reduced = X[:, :nb_features]
-model = PySRRegressor(parallelism='serial', random_state=42, deterministic=True)
+model = PySRRegressor(parallelism='serial', random_state=0, deterministic=True)
 model.fit(X_reduced, y)
 print(f'{len(model.equations_)} equations with complexity: {model.equations_['complexity'].to_list()}')
 print(f'with loss list={model.equations_["loss"].values}')
