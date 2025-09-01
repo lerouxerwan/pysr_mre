@@ -6,7 +6,8 @@ y = np.array([31.82082490529877,30.095264211096985,30.8671131573908,30.753026760
 nb_samples = 5
 X = X[:5, :]
 y = y[:5]
-model = PySRRegressor(parallelism='serial', random_state=0, deterministic=True)
+model = PySRRegressor(parallelism='serial', random_state=0, deterministic=True,
+                      niterations=1)
 model.fit(X, y)
 print(f'{len(model.equations_)} equations with complexity: {model.equations_['complexity'].to_list()}')
 print(f'with loss list={model.equations_["loss"].to_list()}')
