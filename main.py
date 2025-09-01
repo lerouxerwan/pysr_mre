@@ -174,7 +174,9 @@ X = np.array([
 ])
 X = np.array([X])
 X = X.transpose()
-model = PySRRegressor(parallelism='serial', random_state=0, deterministic=True)
+model = PySRRegressor(parallelism='serial', random_state=0, deterministic=True,
+                      # unary_operators=['+', '-', '*'],
+                      precision=64)
 model.fit(X, y)
 print(f'{len(model.equations_)} equations with complexity: {model.equations_['complexity'].to_list()}')
 print(f'with loss list={model.equations_["loss"].values}')
