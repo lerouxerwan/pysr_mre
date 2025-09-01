@@ -7509,13 +7509,3 @@ y = np.array([31.82082490529877,
 31.19198040694858,
 ])
 
-X_units = ['K', 'K', 'K', 'K', 'kg / m^3', 'kg / m^3', 'kg / m^3', 'kg / m^3', '', '', '', '', 'm/s', 'm/s', 'm/s',
-           'm/s', 'm^2 / s', 'm^2 / s', 'm^2 / s', 'm^2 / s', 'm/s', 'm/s', 'm/s', 'm/s', 'N / m^2', 'N / m^2',
-           'N / m^2', 'N / m^2', 'm/s', 'm/s', 'm/s', 'm/s', 'N / m^2', 'N / m^2', 'N / m^2', 'N / m^2', 'K', 'K', 'K',
-           'K', 'W / m^2', 'W / m^2', 'W / m^2', 'W / m^2', 'W / m^2', 'W / m^2', 'W / m^2', 'W / m^2', 'mm/s', 'mm/s',
-           'mm/s', 'mm/s', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', '', '', '', '', 'kg/m^2/s',
-           'kg/m^2/s', 'kg/m^2/s', 'kg/m^2/s', 'm', 'm', 'm', 'm', 'W / m^2', 'W / m^2', 'W / m^2', 'W / m^2', 'm', 'm',
-           'm', 'm', 'Pa', 'Pa', 'Pa', 'Pa', 's^-1', 's^-1', 's^-1', 's^-1']
-y_units = ['g / yr']
-variable_names = ['PoTemp_DJF', 'PoTemp_MAM', 'PoTemp_JJA', 'PoTemp_SON', 'PoDens_DJF', 'PoDens_MAM', 'PoDens_JJA', 'PoDens_SON', 'Salinity_DJF', 'Salinity_MAM', 'Salinity_JJA', 'Salinity_SON', 'upVelo_DJF', 'upVelo_MAM', 'upVelo_JJA', 'upVelo_SON', 'VEddyDiff_DJF', 'VEddyDiff_MAM', 'VEddyDiff_JJA', 'VEddyDiff_SON', 'ZonCur_DJF', 'ZonCur_MAM', 'ZonCur_JJA', 'ZonCur_SON', 'ZonWindStr_DJF', 'ZonWindStr_MAM', 'ZonWindStr_JJA', 'ZonWindStr_SON', 'MerCur_DJF', 'MerCur_MAM', 'MerCur_JJA', 'MerCur_SON', 'MerWindStr_DJF', 'MerWindStr_MAM', 'MerWindStr_JJA', 'MerWindStr_SON', 'SST_DJF', 'SST_MAM', 'SST_JJA', 'SST_SON', 'TotalHeat_DJF', 'TotalHeat_MAM', 'TotalHeat_JJA', 'TotalHeat_SON', 'Shortwave_DJF', 'Shortwave_MAM', 'Shortwave_JJA', 'Shortwave_SON', 'NetUpwardWaterFlux_DJF', 'NetUpwardWaterFlux_MAM', 'NetUpwardWaterFlux_JJA', 'NetUpwardWaterFlux_SON', 'SeaSurfaceThermostericHeight_DJF', 'SeaSurfaceThermostericHeight_MAM', 'SeaSurfaceThermostericHeight_JJA', 'SeaSurfaceThermostericHeight_SON', 'SeaSurfaceStericHeight_DJF', 'SeaSurfaceStericHeight_MAM', 'SeaSurfaceStericHeight_JJA', 'SeaSurfaceStericHeight_SON', 'SSH_DJF', 'SSH_MAM', 'SSH_JJA', 'SSH_SON', 'SSS_DJF', 'SSS_MAM', 'SSS_JJA', 'SSS_SON', 'SurfaceSaltFlux_DJF', 'SurfaceSaltFlux_MAM', 'SurfaceSaltFlux_JJA', 'SurfaceSaltFlux_SON', 'MLD_DJF', 'MLD_MAM', 'MLD_JJA', 'MLD_SON', 'NetSurfaceHeatFlux_DJF', 'NetSurfaceHeatFlux_MAM', 'NetSurfaceHeatFlux_JJA', 'NetSurfaceHeatFlux_SON', 'BaroclinicDynamicHeight_DJF', 'BaroclinicDynamicHeight_MAM', 'BaroclinicDynamicHeight_JJA', 'BaroclinicDynamicHeight_SON', 'SurfacePressure_DJF', 'SurfacePressure_MAM', 'SurfacePressure_JJA', 'SurfacePressure_SON', 'StratIndex_DJF', 'StratIndex_MAM', 'StratIndex_JJA', 'StratIndex_SON']
-
