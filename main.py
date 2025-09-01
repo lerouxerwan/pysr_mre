@@ -91,7 +91,7 @@ y = np.array([31.82082490529877,30.095264211096985,30.8671131573908,30.753026760
 #     print(f'{e},')
 # print(']')
 
-X = np.array( [
+X = np.array([
 285.6745918480926,
 285.65254731794533,
 285.56411456761117,
@@ -172,8 +172,10 @@ X = np.array( [
 286.42876841994234,
 286.4265276201607,
 ])
+X = np.array([X])
+X = X.transpose()
 model = PySRRegressor(parallelism='serial', random_state=0, deterministic=True)
-model.fit(X_reduced, y)
+model.fit(X, y)
 print(f'{len(model.equations_)} equations with complexity: {model.equations_['complexity'].to_list()}')
 print(f'with loss list={model.equations_["loss"].values}')
 
